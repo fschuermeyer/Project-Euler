@@ -6,7 +6,7 @@ fn main(){
 
     for x in 100..999{
         for b in 100..999{
-            let mut c:u32 = b * x;
+            let c:u32 = b * x;
 
             cs = c.to_string();
 
